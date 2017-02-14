@@ -3,9 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:KrausFamilyAppXaml"
              x:Class="KrausFamilyAppXaml.MainPage">
-
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
+  <ContentPage.Title>HelloXamarin</ContentPage.Title>
+  <StackLayout VerticalOptions ="Center">
+     <StackLayout.Children>
+       <Label Text="Welcome to Xamarin Forms!"
+           BackgroundColor ="Teal"
+           TextColor ="Blue"
            HorizontalOptions="Center" />
-
+       
+       <Label Text ="Mobile "
+            HorizontalOptions="Center"/>
+     
+      </StackLayout.Children>
+    </StackLayout>
 </ContentPage>
