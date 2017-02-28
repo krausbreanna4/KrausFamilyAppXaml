@@ -4,16 +4,93 @@
              xmlns:local="clr-namespace:KrausFamilyAppXaml"
              x:Class="KrausFamilyAppXaml.MainPage">
   <ContentPage.Title>HelloXamarin</ContentPage.Title>
-  <StackLayout VerticalOptions ="Center">
-     <StackLayout.Children>
-       <Label Text="Welcome to Xamarin Forms!"
-           BackgroundColor ="Teal"
-           TextColor ="Blue"
-           HorizontalOptions="Center" />
+    <ScrollView>
+      <StackLayout VerticalOptions ="Center">
+       <StackLayout.Children>
+         <Label Text="Julie"
+              BackgroundColor ="Teal"
+              TextColor ="White"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="35"
+              FontAttributes="Bold"
+           
+        />
        
-       <Label Text ="Mobile "
-            HorizontalOptions="Center"/>
+        <Label Text ="My mom is one of the strongest, most determined, woman I know. She raised me as a single parent, while continuing her education and working full time. She inspired me to go to college and work hard. "
+              BackgroundColor ="Teal"
+              TextColor ="White"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="25"/>
+       
+        <Label Text ="Sadie" 
+              BackgroundColor ="Pink"
+              TextColor ="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="35"
+              FontAttributes="Bold"
+       />
+       
+         <Label Text ="My favorite cat. White as snow. She can be hard to love but its do-able!"
+              BackgroundColor ="Pink"
+              TextColor ="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="25"
+       />
+       
+         <Label Text="Abbigail."
+              BackgroundColor ="Yellow"
+              TextColor ="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="35"
+              FontAttributes="Bold"/>
+       
+         <Label Text="Shes the cutest baby. She is my cousin Laurie's baby. She is a miracle and the happiest babies I know."
+              BackgroundColor ="Yellow"
+              TextColor ="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="25"
+       />
+       
+         <Label Text="Irene"
+              BackgroundColor ="Red"
+              TextColor ="White"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="35"
+              FontAttributes="Bold"
+              
+     />
+         <Label Text ="She's my favorite grandma. She loves flowers, making barbie doll clothes, and her garden. She has five kids and five grandchildren"
+              BackgroundColor ="Red"
+              TextColor ="White"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="25"
+              />
+         <Label Text ="Breanna"
+              BackgroundColor ="Purple"
+              TextColor ="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="35"
+              FontAttributes="Bold"
+       />
+       
+         <Label Text ="Thats me. Im pretty neat.  I'm 24 years old and have 3 half siblings that I met, online, last year. I love my small family and can't wait to see what the future holds."
+              BackgroundColor ="Purple"
+              TextColor ="Black"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"
+              FontSize="25" />
+     
      
       </StackLayout.Children>
     </StackLayout>
+  </ScrollView>
 </ContentPage>
