@@ -4,98 +4,100 @@
              xmlns:local="clr-namespace:KrausFamilyAppXaml"
              x:Class="KrausFamilyAppXaml.MainPage">
   <ContentPage.Title>HelloXamarin</ContentPage.Title>
-  <StackLayout VerticalOptions ="Center">
-     <StackLayout.Children>
-       <Label Text="Julie"
-              BackgroundColor ="Teal"
-              TextColor ="White"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Large"
-              FontAttributes="Bold"
+  <ScrollView>
+    <StackLayout VerticalOptions ="Center">
+      <StackLayout.Children>
+        <Label Text="Julie"
+               BackgroundColor ="Teal"
+               TextColor ="White"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large"
+               FontAttributes="Bold"
            
         />
-       
-       <Label Text ="My mom. 50. Best mom EVER! "
-              BackgroundColor ="Teal"
-              TextColor ="White"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Medium"/>
-       <Image Source= "mom.JPG"/>
-              
-       <Label Text ="Sadie" 
-              BackgroundColor ="Pink"
-              TextColor ="Black"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Large"
-              FontAttributes="Bold"
+
+        <Label Text ="My mom. 50. Best mom EVER! "
+               BackgroundColor ="Teal"
+               TextColor ="White"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium"/>
+        <Image Source= "mom.JPG"/>
+
+        <Label Text ="Sadie"
+               BackgroundColor ="Pink"
+               TextColor ="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large"
+               FontAttributes="Bold"
        />
-       
-       
-       <Label Text ="My favorite cat. White as snow."
-              BackgroundColor ="Pink"
-              TextColor ="Black"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Medium"
+
+
+        <Label Text ="My favorite cat. White as snow."
+               BackgroundColor ="Pink"
+               TextColor ="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium"
        />
-       <Image Source="sadie.JPG"/>
-       
-       <Label Text="Abbigail."
-              BackgroundColor ="Yellow"
-              TextColor ="Black"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Large"
-              FontAttributes="Bold"/>
-       
-       <Label Text="Shes the cutest baby."
-              BackgroundColor ="Yellow"
-              TextColor ="Black"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Medium"  
+        <Image Source="sadie.JPG"/>
+
+        <Label Text="Abbigail."
+               BackgroundColor ="Yellow"
+               TextColor ="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large"
+               FontAttributes="Bold"/>
+
+        <Label Text="Shes the cutest baby."
+               BackgroundColor ="Yellow"
+               TextColor ="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium"
        />
-       <Image Source="abbigail.JPG"/>
-       
-       <Label Text="Irene"
-              BackgroundColor ="Red"
-              TextColor ="White"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Large"
-              FontAttributes="Bold"
+        <Image Source="abbigail.JPG"/>
+
+        <Label Text="Irene"
+               BackgroundColor ="Red"
+               TextColor ="White"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large"
+               FontAttributes="Bold"
               
      />
-       <Label Text ="She's my favorite grandma. She loves flowers."
-              BackgroundColor ="Red"
-              TextColor ="White"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Medium"
+        <Label Text ="She's my favorite grandma. She loves flowers."
+               BackgroundColor ="Red"
+               TextColor ="White"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium"
               />
-         <Image Source="grandma.JPG"/>
-       
-       <Label Text ="Breanna"
-              BackgroundColor ="Purple"
-              TextColor ="Black"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Large"
-              FontAttributes="Bold"
+        <Image Source="grandma.JPG"/>
+
+        <Label Text ="Breanna"
+               BackgroundColor ="Purple"
+               TextColor ="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Large"
+               FontAttributes="Bold"
        />
-       
-       <Label Text ="Thats me. Im pretty neat."
-              BackgroundColor ="Purple"
-              TextColor ="Black"
-              HorizontalOptions="Center"
-              VerticalOptions="CenterAndExpand"
-              FontSize="Medium" />
-       <Image Source="breanna.JPG"/>
-     
-     
+
+        <Label Text ="Thats me. Im pretty neat."
+               BackgroundColor ="Purple"
+               TextColor ="Black"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="Medium" />
+        <Image Source="breanna.JPG"/>
+
+
       </StackLayout.Children>
     </StackLayout>
+  </ScrollView>
 </ContentPage>
