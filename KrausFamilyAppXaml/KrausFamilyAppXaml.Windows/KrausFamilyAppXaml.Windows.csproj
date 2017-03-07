@@ -121,7 +121,12 @@
     <None Include="Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Abbigail.JPG" />
+    <Content Include="Assets\Breanna.JPG" />
+    <Content Include="Assets\Grandma.JPG" />
     <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Mom.JPG" />
+    <Content Include="Assets\Sadie.JPG" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
     <Content Include="Assets\StoreLogo.scale-100.png" />
