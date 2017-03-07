@@ -22,7 +22,7 @@
               HorizontalOptions="Center"
               VerticalOptions="CenterAndExpand"
               FontSize="Medium"/>
-       <Image Source= "Mom.jpg"/>
+       <Image Source= "mom.JPG"/>
               
        <Label Text ="Sadie" 
               BackgroundColor ="Pink"
@@ -41,7 +41,7 @@
               VerticalOptions="CenterAndExpand"
               FontSize="Medium"
        />
-       <Image Source="Sadie.jpg"/>
+       <Image Source="sadie.JPG"/>
        
        <Label Text="Abbigail."
               BackgroundColor ="Yellow"
@@ -58,7 +58,7 @@
               VerticalOptions="CenterAndExpand"
               FontSize="Medium"  
        />
-       <Image Source="Abbigail.jpg"/>
+       <Image Source="abbigail.JPG"/>
        
        <Label Text="Irene"
               BackgroundColor ="Red"
@@ -76,7 +76,7 @@
               VerticalOptions="CenterAndExpand"
               FontSize="Medium"
               />
-         <Image Source="Grandma.jpg"/>
+         <Image Source="grandma.JPG"/>
        
        <Label Text ="Breanna"
               BackgroundColor ="Purple"
@@ -93,7 +93,7 @@
               HorizontalOptions="Center"
               VerticalOptions="CenterAndExpand"
               FontSize="Medium" />
-       <Image Source="Breanna.jpg"/>
+       <Image Source="breanna.JPG"/>
      
      
       </StackLayout.Children>
